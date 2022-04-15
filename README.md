@@ -9,7 +9,7 @@
 <h3 align="center">What Even?</h3>
 
   <p align="center">
-    What even? Or is it odd?
+    What even? Its odd ain't it?
     <br />
     <br />
     <a href="https://github.com/SyafiqTermizi2010/What-Event-/issues">Report Bug</a>

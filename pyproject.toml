@@ -1,9 +1,16 @@
 [tool.poetry]
 name = "whateven"
 version = "1.0"
-description = "What even?"
+description = "What even? Its odd ain't it"
 authors = ["Syafiq Termizi <73152242+SyafiqTermizi2010@users.noreply.github.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/SyafiqTermizi2010/What-Event-"
+repository = "https://github.com/SyafiqTermizi2010/What-Event-"
+include = [
+    "LICENSE",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.8"
