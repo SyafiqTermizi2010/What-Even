@@ -11,7 +11,6 @@ include = [
     "LICENSE",
 ]
 
-
 [tool.poetry.dependencies]
 python = "^3.8"
 
@@ -20,8 +19,12 @@ black = "^22.3.0"
 pytest = "^7.1.1"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+packages = [
+    { include = "what_even" },
+]
+
 
 [tool.pytest.ini_options]
 minversion = "6.0"

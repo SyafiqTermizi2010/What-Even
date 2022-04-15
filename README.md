@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SyafiqTermizi2010/What-Event-">
-    <img src="static/logo.png" alt="Logo" width="80" height="80">
+    <img src="./.static/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">What Even?</h3>
@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Product Name Screen Shot](./static/screenshot.png)
+[Product Name Screen Shot](./.static/screenshot.png)
 
 Blazingly fast python package to check if number is odd or even. Yeah, Python is fast af!
 <p align="right">(<a href="#top">back to top</a>)</p>
