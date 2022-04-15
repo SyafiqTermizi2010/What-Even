@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "whateven"
+version = "1.0"
+description = "What even?"
+authors = ["Syafiq Termizi <73152242+SyafiqTermizi2010@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pytest = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "what_even/tests/test_is_even.py",
+    "what_even/tests/test_is_odd.py",
+]
